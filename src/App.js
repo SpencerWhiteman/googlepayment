@@ -1,11 +1,13 @@
 import React from 'react';
-import { Button } from './Components/Googlepay.button';
 import Header from './Components/Header';
+import GooglePayButton from './Components/GooglePayButton';
+
 
 const App = () => {
   return (
-   <div className="buttonlayout">
+   <div className="app">
     <Header />
+    <GooglePayButton />
    </div>
   );
 }
