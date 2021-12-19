@@ -1,13 +1,17 @@
 import React from 'react';
-import Header from './Components/Header';
-import GooglePayButton from './Components/GooglePayButton';
+import Navbar from './Components/Navbar';
+
 
 
 const App = () => {
   return (
    <div className="app">
-    <Header />
-    <GooglePayButton />
+    <Navbar />
+    <div className="content">
+
+
+      
+    </div>
    </div>
   );
 }
